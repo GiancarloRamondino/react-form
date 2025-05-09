@@ -3,7 +3,7 @@ import titoli from "../assets/titoli.js";
 const Main = () => {
     return (
         <div className="main">
-            <h1>Lista di titoli</h1>
+            <h2>Elenco titoli</h2>
             <ul>
                 {titoli.map((titolo, index) => (
                     <li key={index}>
